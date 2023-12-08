@@ -91,7 +91,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, \
 "-h", "25", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *surf[]  = { "firefox", NULL };
+static const char *surf[]  = { "x-www-browser", NULL };
 
 #include "movestack.c"
 static const Key keys[] = {
