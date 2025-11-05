@@ -9,9 +9,9 @@ static const int topbar = 1;            /* 0 means bottom bar */
 static const int user_bh =
     8; /* 2 is the default spacing around the bar's font */
 static const char *fonts[] = {
-    "monospace:pixelsize=12:antialias=true:autohint=true"};
+    "monospace:pixelsize=13:antialias=true:autohint=true"};
 static const char dmenufont[] =
-    "monospace:pixelsize=12:antialias=true:autohint=true";
+    "monospace:pixelsize=13:antialias=true:autohint=true";
 static const char col_gray1[] = "#222222";
 static const char col_gray2[] = "#444444";
 static const char col_gray3[] = "#bbbbbb";
