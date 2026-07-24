@@ -68,9 +68,9 @@ static const char *surf[] = {"firefox", NULL};
 
 #include <X11/XF86keysym.h>
 
-static const char *upvol[]   = {"wpctl", "set-volume", "-l", "1.0", "@DEFAULT_AUDIO_SINK@", "5%+", NULL};
-static const char *downvol[] = {"wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "5%-", NULL};
-static const char *mutevol[] = {"wpctl", "set-mute",   "@DEFAULT_AUDIO_SINK@", "toggle", NULL};
+static const char *upvol[]   = {"pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5%", NULL};
+static const char *downvol[] = {"pactl", "set-sink-volume", "@DEFAULT_SINK@", "-5%", NULL};
+static const char *mutevol[] = {"pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle", NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
