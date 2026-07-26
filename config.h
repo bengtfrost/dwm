@@ -7,7 +7,7 @@ static const unsigned int snap = 32;    /* snap pixel */
 static const int showbar = 1;           /* 0 means no bar */
 static const int topbar = 1;            /* 0 means bottom bar */
 static const int user_bh =
-    8; /* 2 is the default spacing around the bar's font */
+    6; /* 2 is the default spacing around the bar's font */
 static const char *fonts[] = {
     "monospace:size=9.5:antialias=true:autohint=true:hintstyle=hintslight"};
 static const char dmenufont[] =
@@ -72,7 +72,7 @@ static char dmenumon[2] =
     "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = {
     "dmenu_run", "-m",  dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf",
-    col_gray3,   "-sb", col_cyan, "-sf", col_gray4, "-h",  "25",      NULL};
+    col_gray3,   "-sb", col_cyan, "-sf", col_gray4, "-h",  "26",      NULL};
 static const char *termcmd[] = {"st", NULL};
 static const char *surf[] = {"firefox", NULL};
 
